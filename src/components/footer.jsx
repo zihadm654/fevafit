@@ -7,7 +7,7 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <>
-    <footer className="container max-w-6xl grid grid-cols-2 max-md:grid-cols-1 gap-3 py-10  bg-gray-300 ">
+    <footer className="container max-w-6xl grid grid-cols-2 max-md:grid-cols-1 gap-3 py-10 bg-gray-300 rounded-md">
         <div className="flex items-center max-md:justify-between justify-start space-x-4 gap-3">
             <img src="/Logo.svg" alt="logo" />
             <ul>

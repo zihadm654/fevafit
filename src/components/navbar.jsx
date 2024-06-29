@@ -14,7 +14,7 @@ const Navbar = ({ scroll=false }) => {
     }`}
   >
     <MaxWidthWrapper
-        className="flex h-14 items-center justify-between py-4 px-16 max-md:px-8"
+        className="flex h-14 items-center justify-between py-4 px-16 max-md:px-4"
         // large={documentation}
       >
         <div className='flex items-center justify-between space-x-4'>
