@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: ["class"],
@@ -11,7 +12,6 @@ module.exports = {
   theme: {
     container: {
       center: true,
-      padding: "1.5rem",
       screens: {
         "2xl": "1400px",
       },
