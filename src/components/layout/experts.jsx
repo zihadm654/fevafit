@@ -6,7 +6,7 @@ const Experts = () => {
   return (
     <div className="container max-w-6xl text-center py-4">
         <div className="flex items-center justify-between gap-3 w-full text-center py-4 mb-5">
-            <h1 className="text-4xl max-md:text-xl">Meet Our Industry Experts</h1>
+            <h1 className="text-4xl max-md:text-lg max-md:text-start">Meet Our Industry Experts</h1>
             <Button className="bg-purple-700">
                 <Link target="blank" to="https://www.instagram.com/fevafit.corporate" >View Our Experts</Link></Button>
         </div>
