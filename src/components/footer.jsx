@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
     <footer className="container max-w-6xl grid grid-cols-2 max-md:grid-cols-1 gap-3 py-10  bg-gray-300 ">
-        <div className="flex items-center max-md:justify-center justify-start space-x-4 gap-3">
+        <div className="flex items-center max-md:justify-between justify-start space-x-4 gap-3">
             <img src="/Logo.svg" alt="logo" />
             <ul>
                 <li className="flex items-center justify-betweenspace-x-3 gap-2"><MdEmail className="size-5 text-purple-600"/> sample@gmail.com</li>

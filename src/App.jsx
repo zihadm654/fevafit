@@ -5,11 +5,13 @@ import Experts from './components/layout/experts'
 import Hero from './components/layout/hero'
 import Powered from './components/layout/powered'
 import Sucess from './components/layout/success'
+import NavMobile from './components/mobile-nav'
 import Navbar from './components/navbar'
 
 const App = () => {
   return (
     <div className='flex min-h-screen flex-col'>
+      <NavMobile/>
       <Navbar scroll={true}/>
       <main className='flex-1'>
         <Hero/>

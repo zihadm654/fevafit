@@ -30,7 +30,7 @@ const Benefits = () => {
           </Card>
         </div>
         <h1 className="text-3xl font-bold py-3 mb-4">Benefits Snapshot</h1>
-    <div className="flex justify-around items-center py-4 max-md:flex-col gap-3">
+    <div className="flex justify-around items-center max-md:items-stretch py-4 max-md:flex-col gap-3">
       <Button className='bg-purple-700 p-6 text-lg'>
       <GoRocket className="pr-2 size-6"/> Boost Employee Engagement</Button>
       <Button variant="outline" className=' p-6 text-lg'><GiBrain className="pr-2 size-6"/>{" "} Reduce Stress</Button>

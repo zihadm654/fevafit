@@ -14,7 +14,7 @@ const Navbar = ({ scroll=false }) => {
     }`}
   >
     <MaxWidthWrapper
-        className="flex h-14 items-center justify-between py-4 px-16"
+        className="flex h-14 items-center justify-between py-4 px-16 max-md:px-8"
         // large={documentation}
       >
         <div className='flex items-center justify-between space-x-4'>
@@ -29,7 +29,7 @@ const Navbar = ({ scroll=false }) => {
                 </ul>
             </nav>
         </div>
-        <div className='flex justify-between space-x-1 items-center'>
+        <div className='max-md:hidden flex justify-between space-x-1 items-center'>
         <TbWorld  className='size-5'/>
         <IoIosArrowDown className='size-5'/>
         </div>
