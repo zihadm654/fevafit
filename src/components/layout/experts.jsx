@@ -29,7 +29,7 @@ const Experts = () => {
         <Card className="rounded-xl overflow-hidden pb-4">
             <img  className="h-56 max-md:h-52 object-cover aspect-video object-left-top w-full" src="/Snapinsta.app_445464562_756110420039933_5348426809057636_n_1024 1.jpg" alt=""/>
             <CardTitle className="py-2 max-md:text-xl">Husam Mohamed</CardTitle>
-            <CardDescription className="px-3">Transform Coach and Asics Athlete (lost47kg!)</CardDescription>
+            <CardDescription className="px-3">Transformation Coach and Asics Athlete (lost47kg!)</CardDescription>
         </Card>
         </div>
         </div>
