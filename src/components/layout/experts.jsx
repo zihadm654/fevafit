@@ -16,18 +16,18 @@ const Experts = () => {
             <CardTitle className="py-2 max-md:text-xl">Mohamed Khaidi</CardTitle>
             <CardDescription>Partnership and Community Manager</CardDescription>
         </Card>
-        <Card className="rounded-xl overflow-hidden pb-4">
-            <img  className="h-56 max-md:h-48  object-cover aspect-video object-left-top w-full" src="/IMG_4116 1.jpg" alt=""/>
+        <Card className=" rounded-xl overflow-hidden pb-4">
+            <img  className="h-56 max-md:h-52  object-cover aspect-video object-left-top w-full" src="/IMG_4116 1.jpg" alt=""/>
             <CardTitle className="py-2 max-md:text-xl">Badar Al Tamami</CardTitle>
             <CardDescription>Founder and Elite Fitness Trainer</CardDescription>
         </Card>
         <Card className="rounded-xl overflow-hidden pb-4">
-            <img  className="h-56 max-md:h-48  object-cover aspect-video object-left-top w-full" src="/Image Placeholder2.jpg" alt=""/>
+            <img  className="h-56 max-md:h-52  object-cover aspect-video object-left-top w-full" src="/Image Placeholder2.jpg" alt=""/>
             <CardTitle className="py-2 max-md:text-xl">Dr. Naser Ali Riyami</CardTitle>
             <CardDescription className="px-3">Clinical Psychologist</CardDescription>
         </Card>
         <Card className="rounded-xl overflow-hidden pb-4">
-            <img  className="h-56 max-md:h-48 object-cover aspect-video object-left-top w-full" src="/Snapinsta.app_445464562_756110420039933_5348426809057636_n_1024 1.jpg" alt=""/>
+            <img  className="h-56 max-md:h-52 object-cover aspect-video object-left-top w-full" src="/Snapinsta.app_445464562_756110420039933_5348426809057636_n_1024 1.jpg" alt=""/>
             <CardTitle className="py-2 max-md:text-xl">Husam Mohamed</CardTitle>
             <CardDescription className="px-3">Transform Coach and Asics Athlete (lost47kg!)</CardDescription>
         </Card>
