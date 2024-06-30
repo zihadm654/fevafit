@@ -1,7 +1,7 @@
 
 const Sucess = () => {
   return (
-    <div className="container text-center p-12 bg-gray-300">
+    <div className="container text-center p-12 max-md:p-6 bg-gray-300 max-md:py-12">
       <h1 className="text-5xl max-md:text-3xl font-bold">Sucess Story</h1>
       <p className="py-3">Discover how Feva Fit helped ENOC (Emirates National Oil Company) significantly improve employee well-being</p>
       <div className="aspect-video w-full py-3 rounded-lg">

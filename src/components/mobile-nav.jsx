@@ -23,7 +23,7 @@ const NavMobile = () => {
   </button>
   <nav
         className={cn(
-          "fixed inset-0 z-20 hidden w-full overflow-auto bg-background px-12 py-16 lg:hidden bg-white",
+          "fixed inset-0 z-20 hidden w-full overflow-auto bg-background px-6 py-16 lg:hidden bg-white",
           open && "block",
         )}
       >

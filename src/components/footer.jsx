@@ -7,15 +7,15 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <>
-    <footer className="container grid grid-cols-2 max-md:grid-cols-1 gap-3 p-12 bg-gray-300 rounded-md">
+    <footer className="container grid grid-cols-2 max-md:grid-cols-1 gap-3 p-12 max-md:p-6 bg-gray-300 rounded-md">
         <div className="flex items-center justify-start space-x-4 gap-3">
             <img src="/Logo.svg" alt="logo" />
             <ul>
-                <li className="flex items-center justify-start space-x-3 gap-2"><MdEmail className="size-5 text-purple-600"/>
+                <li className="flex items-center justify-start space-x-3 gap-2"><MdEmail className="size-5 text-purple-700"/>
                 <Link to="mailto:badar@fevafit.co">badar@fevafit.co</Link>
                 </li>
-                <li className="flex items-center justify-start space-x-3 gap-2"><BsTelephone className="size-5 text-purple-600"/> +911543258744</li>
-                <li className="flex items-center justify-start space-x-3 gap-2"><BiLocationPlus  className="size-5 text-purple-600"/> Dubai,UAE</li>
+                <li className="flex items-center justify-start space-x-3 gap-2"><BsTelephone className="size-5 text-purple-700"/> +911543258744</li>
+                <li className="flex items-center justify-start space-x-3 gap-2"><BiLocationPlus  className="size-5 text-purple-700"/> Dubai,UAE</li>
             </ul>
         </div>
         <div className="flex justify-start space-x-3 gap-3 flex-col max-md:items-start">

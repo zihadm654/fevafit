@@ -12,7 +12,7 @@ const Navbar = ({ scroll=false }) => {
       scroll ? (scrolled ? "border-b" : "bg-transparent") : "border-b"
     }`}
   >
-    <div className="flex h-14 items-center justify-between py-8 px-12 container"
+    <div className="flex h-14 items-center justify-between py-8 px-12 max-md:px-4 container"
       >
         <div className='flex items-center justify-between space-x-4'>
             <Link to="/" className="flex items-center space-x-2">
@@ -21,8 +21,8 @@ const Navbar = ({ scroll=false }) => {
             <nav className="hidden gap-6 md:flex pl-4">
                 <ul className='flex space-x-4 items-center justify-between'>
                     <Link className='border-b-2 border-b-orange-400 text-orange-400' to={'/'}>Home</Link>
-                    <Link to={'/'}>Testimonial</Link>
-                    <Link to={'/'}>Corporates</Link>
+                    <Link className='hover:border-b-2 hover:border-b-orange-400 hover:text-orange-400' to={'/'}>Testimonial</Link>
+                    <Link className='hover:border-b-2 hover:border-b-orange-400 hover:text-orange-400' to={'/'}>Corporates</Link>
                 </ul>
             </nav>
         </div>

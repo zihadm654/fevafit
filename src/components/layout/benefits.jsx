@@ -10,24 +10,24 @@ import {
 
 const Benefits = () => {
   return (
-    <section className="py-12">
-    <div className="container p-12 text-center">
+    <section className="py-12 max-md:py-6">
+    <div className="container p-12 max-md:p-6 text-center">
         <h1 className="text-3xl font-bold">Benefits Snapshot</h1>
         <div className="py-12 grid grid-cols-3 gap-7 max-md:grid-cols-1">
           <Card className="p-5">
-            <CardTitle className="text-5xl mb-2">21%</CardTitle>
-            <CardContent className="font-semibold text-lg">Reduce Absenteism</CardContent>
-            <CardDescription className="text-base">Poor health increases absenteeism and lowers productivity. We improve your teams metabolic health 🩸</CardDescription>
+            <CardTitle className="text-5xl">21%</CardTitle>
+            <CardContent className="font-semibold text-lg p-3">Reduce Absenteism</CardContent>
+            <CardDescription className="text-lg">Poor health increases absenteeism and lowers productivity. We improve your teams metabolic health 🩸</CardDescription>
           </Card>
           <Card className="p-5">
-            <CardTitle className="text-5xl mb-2">80%+</CardTitle>
-            <CardContent className="font-semibold text-lg">Engagement Scores</CardContent>
-            <CardDescription className="text-base">With program participants surveys expressing that their company values their health and well-being 📊</CardDescription>
+            <CardTitle className="text-5xl">80%+</CardTitle>
+            <CardContent className="font-semibold text-lg p-3">Engagement Scores</CardContent>
+            <CardDescription className="text-lg">With program participants surveys expressing that their company values their health and well-being 📊</CardDescription>
           </Card>
           <Card  className="p-5">
-            <CardTitle className="text-5xl mb-2">95%</CardTitle>
-            <CardContent className="font-semibold text-lg">Employee Satisfaction</CardContent>
-            <CardDescription className="text-base">The majority of our clients employees enjoyed the sessions we offer and gave it a five star rating ⭐</CardDescription>
+            <CardTitle className="text-5xl">95%</CardTitle>
+            <CardContent className="font-semibold text-lg p-3">Employee Satisfaction</CardContent>
+            <CardDescription className="text-lg">The majority of our clients employees enjoyed the sessions we offer and gave it a five star rating ⭐</CardDescription>
           </Card>
         </div>
         {/* <h1 className="text-3xl font-bold py-3 mb-4">Benefits Snapshot</h1>
