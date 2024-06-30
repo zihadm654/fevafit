@@ -29,13 +29,13 @@ const NavMobile = () => {
       >
        <ul className="grid divide-y divide-muted">
        <li className="py-3">
-            <Link to={'/'}>Home</Link>
+            <Link onClick={(prev)=>setOpen(!prev)} to={'/'}>Home</Link>
         </li>
         <li className="py-3">
-            <Link to={'/'}>Testimonial</Link>
+            <Link onClick={(prev)=>setOpen(!prev)} to={'/'}>Testimonial</Link>
         </li>
         <li className="py-3">
-            <Link to={'/'}>Corporates</Link>
+            <Link onClick={(prev)=>setOpen(!prev)} to={'/'}>Corporates</Link>
             </li>
         </ul> 
       </nav>
