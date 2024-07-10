@@ -9,7 +9,7 @@ const Footer = () => {
     <>
       <footer className="container grid grid-cols-2 max-md:grid-cols-1 gap-3 p-12 max-md:p-6 bg-gray-300 rounded-md">
         <div className="flex items-center justify-start space-x-4 gap-3">
-          <img src="/Logo.svg" alt="logo" />
+          <img src="/Logo.svg" alt="logo" loading="lazy" />
           <ul>
             <li className="flex items-center justify-start space-x-3 gap-2">
               <MdEmail className="size-5 text-purple-700" />

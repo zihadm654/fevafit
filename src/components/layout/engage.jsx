@@ -8,6 +8,7 @@ const Engage = () => {
     <div className="container px-12 py-28 max-md:px-6 max-md:py-16">
       <Card className="bg-[#6733B5] text-white text-center flex flex-col items-center justify-center space-y-6 p-20 max-md:p-8 relative rounded-2xl overflow-hidden">
         <img
+          loading="lazy"
           src="/Vector.svg"
           alt=""
           className="absolute top-18 left-0 object-contain w-full "

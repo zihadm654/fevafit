@@ -15,7 +15,15 @@ const Navbar = ({ scroll = false }) => {
       <div className="flex h-14 items-center justify-between py-8 px-12 max-md:px-4 container">
         <div className="flex items-center justify-between space-x-4">
           <Link to="/" className="flex items-center space-x-2">
-            <img src="/Logo.svg" alt="" className="w-10 h-12" />
+            <img
+              loading="lazy"
+              role="presentation"
+              decoding="async"
+              fetchPriority="high"
+              src="/Logo.svg"
+              alt=""
+              className="w-10 h-12"
+            />
           </Link>
           <nav className="hidden gap-6 md:flex pl-4">
             <ul className="flex space-x-4 items-center justify-between">
