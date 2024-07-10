@@ -6,7 +6,13 @@ const Hero = () => {
   return (
     <section>
       <div className="container">
-        <div className="max-md:mx-auto relative overflow-hidden max-md:h-[65svh] h-[85svh] background">
+        <div className="max-md:mx-auto relative overflow-hidden max-md:h-[65svh] h-[85svh] bg-gradient-to-tl from-black to-purple bg-blend-darken">
+          <img
+            src="/banner.jpg"
+            alt="banner"
+            className="h-full w-full object-cover absolute top-0 left-0 -z-10 "
+            loading="lazy"
+          />
           <div className="text-white flex flex-col items-center pt-12 max-md:pt-24 h-full text-center gap-4 space-y-3 px-12 max-md:px-5">
             <h1 className="text-7xl max-md:text-4xl font-bold px-4 max-md:px-0">
               Tailored Corporate Wellness Programs
