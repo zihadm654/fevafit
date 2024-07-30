@@ -4,10 +4,25 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Analytics from "./components/Analytics.jsx";
+import Enoc from "./pages/enoc.jsx";
+import Wellx from "./pages/wellx.jsx";
+import Onplan from "./pages/onplan.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+  },
+  {
+    path: "/enoc",
+    element: <Enoc />,
+  },
+  {
+    path: "/wellx",
+    element: <Wellx />,
+  },
+  {
+    path: "/onplan",
+    element: <Onplan />,
   },
 ]);
 

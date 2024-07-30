@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { useScroll } from "../hooks/use-scroll";
-import { IoIosArrowDown } from "react-icons/io";
-import { TbWorld } from "react-icons/tb";
 // import { links } from '../config/navbar';
 // eslint-disable-next-line react/prop-types
 const Navbar = ({ scroll = false }) => {
@@ -13,18 +11,18 @@ const Navbar = ({ scroll = false }) => {
       }`}
     >
       <div className="flex h-14 items-center justify-between py-8 px-12 max-md:px-4 container">
-        <div className="flex items-center justify-between space-x-4">
-          <Link to="/" className="flex items-center space-x-2">
-            <img
-              loading="lazy"
-              role="presentation"
-              decoding="async"
-              fetchPriority="high"
-              src="/Logo.svg"
-              alt=""
-              className="w-10 h-12"
-            />
-          </Link>
+        <Link to="/" className="flex items-center space-x-2">
+          <img
+            loading="lazy"
+            role="presentation"
+            decoding="async"
+            fetchPriority="high"
+            src="/Logo.svg"
+            alt=""
+            className="w-10 h-12"
+          />
+        </Link>
+        <div className="max-md:hidden flex justify-between space-x-1 items-center">
           <nav className="hidden gap-6 md:flex pl-4">
             <ul className="flex space-x-4 items-center justify-between">
               <Link
@@ -47,10 +45,6 @@ const Navbar = ({ scroll = false }) => {
               </Link>
             </ul>
           </nav>
-        </div>
-        <div className="max-md:hidden flex justify-between space-x-1 items-center">
-          <TbWorld className="size-5" />
-          <IoIosArrowDown className="size-5" />
         </div>
       </div>
     </header>

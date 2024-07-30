@@ -15,7 +15,7 @@ const Experts = () => {
           </Link>
         </Button>
       </div>
-      <div className="grid grid-cols-4 gap-8 max-md:grid-cols-2 max-md:gap-4">
+      <div className="grid grid-cols-4 gap-6 max-md:grid-cols-2 max-md:gap-4">
         <Card className="rounded-xl overflow-hidden pb-4">
           <img
             loading="lazy"
@@ -53,6 +53,18 @@ const Experts = () => {
         <Card className="rounded-xl overflow-hidden pb-4">
           <img
             loading="lazy"
+            className="h-56 max-md:h-52  object-cover aspect-video object-left-top w-full"
+            src="/sara.jpg"
+            alt=""
+          />
+          <CardTitle className="py-2 max-md:text-xl">Sarah Tunstall</CardTitle>
+          <CardDescription className="px-3">
+            Head Female Trainer
+          </CardDescription>
+        </Card>
+        <Card className="rounded-xl overflow-hidden pb-4">
+          <img
+            loading="lazy"
             className="h-56 max-md:h-52 object-cover aspect-video object-left-top w-full"
             src="/Snapinsta.app_445464562_756110420039933_5348426809057636_n_1024 1.jpg"
             alt=""
@@ -60,6 +72,18 @@ const Experts = () => {
           <CardTitle className="py-2 max-md:text-xl">Husam Mohamed</CardTitle>
           <CardDescription className="px-3">
             Transformation Coach and Asics Athlete (lost47kg!)
+          </CardDescription>
+        </Card>
+        <Card className="rounded-xl overflow-hidden pb-4">
+          <img
+            loading="lazy"
+            className="h-56 max-md:h-52 object-cover aspect-video object-left-top w-full"
+            src="/talha.jpg"
+            alt=""
+          />
+          <CardTitle className="py-2 max-md:text-xl">Talal Nasir</CardTitle>
+          <CardDescription className="px-3">
+            Advisor on Culture and Talent Management Expert
           </CardDescription>
         </Card>
       </div>
