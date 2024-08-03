@@ -14,7 +14,7 @@ const Hero = ({ img, title, cta }) => {
               loading="lazy"
               src={img}
               alt="icons"
-              className="object-cover max-md:h-14 h-20 z-50"
+              className="object-cover max-md:h-14 h-20 z-20"
             />
             <h4 className="text-2xl">{title}</h4>
             <Link

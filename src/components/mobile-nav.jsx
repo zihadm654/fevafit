@@ -2,7 +2,7 @@ import { useState } from "react";
 import { cn } from "../lib/utils";
 import { X } from "lucide-react";
 import { Menu } from "lucide-react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const NavMobile = () => {
   const [open, setOpen] = useState(false);
@@ -23,25 +23,20 @@ const NavMobile = () => {
       </button>
       <nav
         className={cn(
-          "fixed inset-0 z-20 hidden w-full overflow-auto bg-background px-6 py-16 lg:hidden bg-white",
+          "fixed inset-0 z-30 hidden w-full overflow-auto bg-background px-6 py-16 lg:hidden bg-white",
           open && "block"
         )}
       >
         <ul className="grid divide-y divide-muted">
           <li className="py-3">
-            <Link onClick={(prev) => setOpen(!prev)} to={"/"}>
+            <NavLink onClick={(prev) => setOpen(!prev)} to={"/"}>
               Home
-            </Link>
+            </NavLink>
           </li>
           <li className="py-3">
-            <Link onClick={(prev) => setOpen(!prev)} to={"/"}>
-              Testimonials
-            </Link>
-          </li>
-          <li className="py-3">
-            <Link onClick={(prev) => setOpen(!prev)} to={"/"}>
+            <NavLink onClick={(prev) => setOpen(!prev)} to={"/corporates"}>
               Corporates
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
