@@ -27,7 +27,7 @@ const Banner = ({ src }) => {
         <img
           src="/banner.jpg"
           alt="banner"
-          className="h-full w-full object-cover absolute top-0 left-0 -z-10 "
+          className="h-full w-full object-cover absolute top-0 left-0 -z-10"
           fetchPriority="high"
         />
       )}

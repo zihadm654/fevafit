@@ -37,20 +37,6 @@ const Benefits = () => {
             </CardDescription>
           </Card>
         </div>
-        {/* <h1 className="text-3xl font-bold py-3 mb-4">Benefits Snapshot</h1>
-    <div className="flex justify-around items-center max-md:items-stretch py-4 max-md:flex-col gap-3">
-    <Button className='bg-purple-700 p-6 text-lg'>
-    <GoRocket className="pr-2 size-6"/> Boost Employee Engagement</Button>
-    <Button variant="outline" className=' p-6 text-lg'><GiBrain className="pr-2 size-6"/>{" "} Reduce Stress</Button>
-    <Button variant="outline" className='p-6 text-lg'><GiHumanTarget className="pr-2 size-6"/>{" "}  Lower Employee Turn over</Button>
-    </div>
-    <div className="flex items-center justify-between gap-4 py-4 max-md:flex-col-reverse">
-    <article className="text-start">
-    <h1 className="text-3xl font-bold py-3 ">Boost Employee Engagement</h1>
-    <p>Programs designed to significantly increase engagement scores and drive productivity throughout your entire organization. These initiatives foster a positive work environment, enhancing overall employee satisfaction and retention.</p>
-    </article>
-    <img src="/12427686_4955273-removebg-preview (1) 1.png" alt="" />
-    </div> */}
       </div>
     </section>
   );

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useScroll } from "../hooks/use-scroll";
+import { NavLink } from "react-router-dom";
 // import { links } from '../config/navbar';
 // eslint-disable-next-line react/prop-types
 const Navbar = ({ scroll = false }) => {
@@ -25,24 +26,8 @@ const Navbar = ({ scroll = false }) => {
         <div className="max-md:hidden flex justify-between space-x-1 items-center">
           <nav className="hidden gap-6 md:flex pl-4">
             <ul className="flex space-x-4 items-center justify-between">
-              <Link
-                className="border-b-2 border-b-orange-400 text-orange-400"
-                to={"/"}
-              >
-                Home
-              </Link>
-              <Link
-                className="hover:border-b-2 hover:border-b-orange-400 hover:text-orange-400"
-                to={"/"}
-              >
-                Testimonials
-              </Link>
-              <Link
-                className="hover:border-b-2 hover:border-b-orange-400 hover:text-orange-400"
-                to={"/"}
-              >
-                Corporates
-              </Link>
+              <NavLink to={"/"}>Home</NavLink>
+              <NavLink to={"/corporates"}>Corporates</NavLink>
             </ul>
           </nav>
         </div>

@@ -13,16 +13,16 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "/enoc",
+    path: "/corporates/enoc",
     element: <Enoc />,
   },
   {
-    path: "/wellx",
-    element: <Wellx />,
+    path: "/corporates/onplan",
+    element: <Onplan />,
   },
   {
-    path: "/onplan",
-    element: <Onplan />,
+    path: "/corporates/wellx",
+    element: <Wellx />,
   },
 ]);
 

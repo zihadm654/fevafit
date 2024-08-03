@@ -1,7 +1,39 @@
 import { Link } from "react-router-dom";
 import { Button } from "../ui/button";
-import { Card, CardDescription, CardTitle } from "../ui/card";
+import { Card, CardContent, CardTitle } from "../ui/card";
 
+const config = [
+  {
+    img: "/Image Placeholder.jpg",
+    name: "Mohamed Khaidi",
+    position: " Partnership and Community Manager",
+  },
+  {
+    img: "/IMG_4116 1.jpg",
+    name: "Badar Al Tamami",
+    position: "Founder and Elite Fitness Trainer",
+  },
+  {
+    img: "/Image Placeholder2.jpg",
+    name: "Dr. Naser Ali Riyami",
+    position: "Clinical Psychologist",
+  },
+  {
+    img: "/sara.jpg",
+    name: "Sarah Tunstall",
+    position: " Head Female Trainer",
+  },
+  {
+    img: "/Snapinsta.app_445464562_756110420039933_5348426809057636_n_1024 1.jpg",
+    name: "Husam Mohamed",
+    position: "Transformation Coach and Asics Athlete (lost47kg!)",
+  },
+  {
+    img: "/talha.jpg",
+    name: "Talal Nasir",
+    position: "Advisor on Culture and Talent Management Expert",
+  },
+];
 const Experts = () => {
   return (
     <div className="container text-center p-12 max-md:p-5">
@@ -10,13 +42,31 @@ const Experts = () => {
           Meet Our Industry Experts
         </h1>
         <Button className="bg-purple-700">
-          <Link target="blank" to="https://www.instagram.com/fevafit.corporate">
+          <Link
+            className="underline"
+            target="blank"
+            to="https://www.instagram.com/fevafit.corporate"
+          >
             View Our Experts
           </Link>
         </Button>
       </div>
       <div className="grid grid-cols-4 gap-6 max-md:grid-cols-2 max-md:gap-4">
-        <Card className="rounded-xl overflow-hidden pb-4">
+        {config.map((item) => (
+          <Card key={item.name} className="rounded-xl overflow-hidden pb-4">
+            <img
+              loading="lazy"
+              className="h-56 max-md:h-52  object-cover aspect-video object-left-center w-full"
+              src={item.img}
+              alt="expert"
+            />
+            <CardTitle className="py-2 max-md:text-xl">{item.name}</CardTitle>
+            <CardContent className="text-[#3E3E59] text-base">
+              {item.position}
+            </CardContent>
+          </Card>
+        ))}
+        {/* <Card className="rounded-xl overflow-hidden pb-4">
           <img
             loading="lazy"
             className="h-56 max-md:h-52  object-cover aspect-video object-left-center w-full"
@@ -24,7 +74,9 @@ const Experts = () => {
             alt="expert"
           />
           <CardTitle className="py-2 max-md:text-xl">Mohamed Khaidi</CardTitle>
-          <CardDescription>Partnership and Community Manager</CardDescription>
+          <CardContent className="text-[#3E3E59]">
+            Partnership and Community Manager
+          </CardContent>
         </Card>
         <Card className=" rounded-xl overflow-hidden pb-4">
           <img
@@ -85,7 +137,7 @@ const Experts = () => {
           <CardDescription className="px-3">
             Advisor on Culture and Talent Management Expert
           </CardDescription>
-        </Card>
+        </Card> */}
       </div>
     </div>
   );

@@ -9,14 +9,13 @@ const Metric = ({ data }) => {
         <div className="grid grid-cols-3 max-md:grid-cols-1 gap-4 pt-12">
           {data?.map((item, index) => (
             <Card key={index} className="py-12 px-6">
-              <CardTitle className="text-center text-5xl font-bold">
+              <CardTitle className="text-center text-5xl font-medium">
                 {item.title}
-                <span></span>
               </CardTitle>
               <CardContent className="text-center text-xl">
                 {item.sub}
               </CardContent>
-              <CardDescription className="text-center text-xl">
+              <CardDescription className="text-center text-xl text-[#6B6B6B]">
                 {item.desc}
               </CardDescription>
             </Card>

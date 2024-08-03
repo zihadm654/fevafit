@@ -1,6 +1,5 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
-import { Button } from "../ui/button";
 import Banner from "../Banner";
 
 // eslint-disable-next-line react/prop-types
@@ -15,20 +14,20 @@ const Hero = ({ img, title, cta }) => {
               loading="lazy"
               src={img}
               alt="icons"
-              className="object-cover max-md:h-14 h-22 z-50"
+              className="object-cover max-md:h-14 h-20 z-50"
             />
             <h4 className="text-2xl">{title}</h4>
-            <Button className="bg-[#6733B5] hover:bg-blue-700 text-white p-6 max-md:py-7 py-8 rounded-xl text-lg">
-              <Link
-                className="flex items-center justify-center"
-                to="https://wa.me/+971522103138"
-              >
+            <Link
+              to="https://wa.me/+971522103138"
+              className="relative inline-flex items-center justify-center px-6 py-4 overflow-hidden text-white bg-[#6733B5] rounded-lg group "
+            >
+              <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-green-500 rounded-full group-hover:w-80 group-hover:h-80"></span>
+              <span className="absolute inset-0 w-full h-full rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
+              <span className="relative flex justify-center items-center font-semibold text-lg">
                 {cta}
-                <span>
-                  <IoIosArrowRoundForward className="size-6" />
-                </span>
-              </Link>
-            </Button>
+                <IoIosArrowRoundForward className="size-6" />
+              </span>
+            </Link>
           </div>
         </div>
       </div>
