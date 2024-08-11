@@ -1,4 +1,5 @@
-const Client = () => {
+// eslint-disable-next-line react/prop-types
+const Client = ({ link, title }) => {
   return (
     <section className="bg-gray-200">
       <div className="container p-12 max-md:px-6 max-md:py-10">
@@ -7,8 +8,8 @@ const Client = () => {
           <iframe
             width="100%"
             height="100%"
-            src="https://www.youtube.com/embed/OYYfYsO3Mt4?si=cihUuOX14RNvOEJo"
-            title="YouTube video player"
+            src={link}
+            title={title}
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen

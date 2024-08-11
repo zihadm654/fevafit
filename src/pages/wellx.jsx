@@ -22,8 +22,14 @@ const Wellx = () => {
           img="/wellx.png"
           title="Elevate Your Employees Well-Being"
           cta="Book a free consultation call"
+          background="/30 landscape.jpg"
         />
-        <Client />
+        <Client
+          link={"https://www.youtube.com/embed/k4C5tLYtfJk"}
+          title={
+            "Sophia from the Wellx team shares her thoughts on our bootcamps 💪 #corporateevents #wellness"
+          }
+        />
         <section>
           <div className="container p-12 max-md:px-6 max-md:py-10">
             <h1 className="text-center text-3xl font-bold">Results & Metric</h1>

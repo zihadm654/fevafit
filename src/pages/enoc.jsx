@@ -22,14 +22,18 @@ const Enoc = () => {
           img="/enoc.png"
           title="Elevate Your Employees Well-Being"
           cta="Book a free consultation"
+          background="/banner.jpg"
         />
-        <Client />
+        <Client
+          link={"https://www.youtube.com/embed/OYYfYsO3Mt4"}
+          title="Wellness Program Testimonial- Dr. Leila Kazim, Wellbeing Manager at ENOC"
+        />
         <section>
           <div className="container p-12 max-md:px-6 max-md:py-10">
             <h1 className="text-center text-3xl font-bold">Results & Metric</h1>
             <div className="grid grid-cols-3 max-md:grid-cols-1 gap-4 pt-12">
               <Card className="py-12 px-6">
-                <CardTitle className="text-center text-5xl font-medium flex items-center justify-center">
+                <CardTitle className="text-center text-5xl font-medium flex items-center justify-center ">
                   20%
                   <IoIosArrowRoundUp />
                 </CardTitle>

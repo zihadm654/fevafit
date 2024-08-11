@@ -5,7 +5,7 @@ import { Card, CardContent, CardTitle } from "../ui/card";
 const config = [
   {
     img: "/Image Placeholder.jpg",
-    name: "Mohamed Khaidi",
+    name: "Mohamed Al-Khaidi",
     position: " Partnership and Community Manager",
   },
   {
@@ -51,12 +51,12 @@ const Experts = () => {
           </Link>
         </Button>
       </div>
-      <div className="grid grid-cols-4 gap-6 max-md:grid-cols-2 max-md:gap-4">
+      <div className="grid grid-cols-4 gap-6 max-md:grid-cols-2 max-sm:grid-cols-1 max-md:gap-4">
         {config.map((item) => (
           <Card key={item.name} className="rounded-xl overflow-hidden pb-4">
             <img
               loading="lazy"
-              className="h-56 max-md:h-52  object-cover aspect-video object-left-center w-full"
+              className="h-60 max-md:h-52  object-cover aspect-video object-left-top w-full"
               src={item.img}
               alt="expert"
             />

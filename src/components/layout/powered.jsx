@@ -55,7 +55,7 @@ const Powered = () => {
               </CardContent>
             </Card>
             <Card className="overflow-hidden text-center flex items-center justify-center flex-col shadow-xl rounded-xl">
-              <div className="flex items-center justify-center bg-gray-500 h-full w-full p-8">
+              <div className="flex items-center justify-center bg-gray-500 h-full w-full p-6">
                 <img
                   loading="lazy"
                   src="/image 39.png"
@@ -63,12 +63,12 @@ const Powered = () => {
                   className="object-cover aspect-auto max-md:h-13"
                 />
               </div>
-              <CardContent className="max-w-xs flex items-center justify-around flex-col gap-3 py-7">
+              <CardContent className="max-w-xs flex items-center justify-around flex-col gap-3 py-4">
                 Motivated and productive workforce via personalized wellness
                 programs
                 <NavLink
-                  className="flex items-center justify-center text-[#6733B5] font-semibold"
-                  to="/corporates/onplan"
+                  className="flex items-center justify-center text-[#6733B5] font-semibold border-hidden"
+                  to="#"
                 >
                   Learn more <IoIosArrowForward />
                 </NavLink>

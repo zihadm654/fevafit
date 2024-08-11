@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import Banner from "../Banner";
 
 // eslint-disable-next-line react/prop-types
-const Hero = ({ img, title, cta }) => {
+const Hero = ({ img, title, cta, background }) => {
   return (
     <section>
       <div className="container">
-        <div className="max-md:mx-auto relative overflow-hidden max-md:h-[65svh] h-[70svh] bg-gradient-to-tl from-black to-purple bg-blend-darken">
-          <Banner src="/banner.jpg" />
-          <div className="text-white flex flex-col items-center pt-12 max-md:pt-24 h-full text-center gap-4 space-y-3 px-12 max-md:px-5">
+        <div className="max-md:mx-auto relative overflow-hidden max-md:h-[65svh] h-[75svh] bg-gradient-to-tl from-black to-purple bg-blend-darken">
+          <Banner src={background} />
+          <div className="text-white flex flex-col items-center pt-16 max-md:pt-24 h-full text-center gap-4 space-y-3 px-12 max-md:px-5">
             <img
               loading="lazy"
               src={img}

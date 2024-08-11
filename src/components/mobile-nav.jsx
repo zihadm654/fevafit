@@ -34,7 +34,7 @@ const NavMobile = () => {
             </NavLink>
           </li>
           <li className="py-3">
-            <NavLink onClick={(prev) => setOpen(!prev)} to={"/corporates"}>
+            <NavLink onClick={(prev) => setOpen(!prev)} to={"/corporates/enoc"}>
               Corporates
             </NavLink>
           </li>

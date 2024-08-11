@@ -22,7 +22,7 @@ const Engage = () => {
           health and vitality journey
         </CardDescription>
         <Link
-          to="https://wa.me/+971522103138"
+          to="https://ajx6hfj6f3e.typeform.com/to/RbwCkYlw"
           className="relative inline-flex items-center justify-center max-md:px-2 px-6 py-4 overflow-hidden text-white bg-[#E28B24] rounded-lg group "
         >
           <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-green-500 rounded-full group-hover:w-80 group-hover:h-80"></span>
