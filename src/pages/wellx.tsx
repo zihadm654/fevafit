@@ -62,7 +62,7 @@ export function Gallery() {
     },
     {
       id: 4,
-      img: "/DC5E48EE-8300-4563-88EA-7C746CF8AAF7.jpeg.jpg",
+      img: "/221AB40F-FEF4-4F1D-A921-973B14E1A57B.jpeg.jpg",
     },
   ];
   return (
