@@ -1,5 +1,4 @@
-// eslint-disable-next-line react/prop-types
-const Client = ({ link, title }) => {
+const Client = ({ link, title }: any) => {
   return (
     <section className="bg-gray-200">
       <div className="container p-12 max-md:px-6 max-md:py-10">

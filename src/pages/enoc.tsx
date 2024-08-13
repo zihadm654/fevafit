@@ -67,9 +67,8 @@ const Enoc = () => {
                   Engagement Scores
                 </CardContent>
                 <CardDescription className="text-center text-xl text-[#6B6B6B]">
-                  Trained 350+ staff members significantly improving their
-                  engagement at work since the implementation of the wellness
-                  program
+                  High engagement rates with over 50% of employees invited
+                  regularly participating in wellness activities
                 </CardDescription>
               </Card>
             </div>

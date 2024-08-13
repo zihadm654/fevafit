@@ -2,8 +2,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Blurhash } from "react-blurhash";
 
-// eslint-disable-next-line react/prop-types
-const Banner = ({ src }) => {
+const Banner = ({ src }: any) => {
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
     const img = new Image();

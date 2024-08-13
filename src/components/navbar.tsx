@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import { useScroll } from "../hooks/use-scroll";
 import { NavLink } from "react-router-dom";
 // import { links } from '../config/navbar';
-// eslint-disable-next-line react/prop-types
 const Navbar = ({ scroll = false }) => {
   const scrolled = useScroll(50);
   return (

@@ -60,12 +60,12 @@ const Powered = () => {
                   loading="lazy"
                   src="/image 39.png"
                   alt="icons"
-                  className="object-cover aspect-auto max-md:h-13"
+                  className="object-cover aspect-auto max-md:h-13 h-20"
                 />
               </div>
               <CardContent className="max-w-xs flex items-center justify-around flex-col gap-3 py-4">
                 Motivated and productive workforce via personalized wellness
-                programs
+                programs.
                 <NavLink
                   className="flex items-center justify-center text-[#6733B5] font-semibold border-hidden"
                   to="#"

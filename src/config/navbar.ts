@@ -1,5 +1,4 @@
-
-export const links= {
+export const links = {
   mainNav: [
     {
       title: "Pricing",
@@ -14,4 +13,4 @@ export const links= {
       href: "/docs",
     },
   ],
-}
+};

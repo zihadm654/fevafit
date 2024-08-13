@@ -4,14 +4,14 @@ import { Card, CardContent, CardTitle } from "../ui/card";
 
 const config = [
   {
-    img: "/Image Placeholder.jpg",
-    name: "Mohamed Al-Khaidi",
-    position: " Partnership and Community Manager",
-  },
-  {
     img: "/IMG_4116 1.jpg",
     name: "Badar Al Tamami",
     position: "Founder and Elite Fitness Trainer",
+  },
+  {
+    img: "/Image Placeholder.jpg",
+    name: "Mohamed Al-Khaldi",
+    position: " Partnership and Community Manager",
   },
   {
     img: "/Image Placeholder2.jpg",
