@@ -40,7 +40,7 @@ const Benefits = () => {
                 50%+
               </CardTitle>
               <CardContent className="text-center text-xl">
-                Engagement Scores
+                Employee Participation
               </CardContent>
               <CardDescription className="text-center text-xl text-[#6B6B6B]">
                 High engagement rates with over 50% of employees invited
