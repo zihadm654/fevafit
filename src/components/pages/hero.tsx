@@ -2,7 +2,6 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 import Banner from "../Banner";
 
-// eslint-disable-next-line react/prop-types
 const Hero = ({ img, title, cta, background }: any) => {
   return (
     <section>

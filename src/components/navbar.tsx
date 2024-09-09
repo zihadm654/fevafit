@@ -27,6 +27,8 @@ const Navbar = ({ scroll = false }) => {
             <ul className="flex space-x-4 items-center justify-between">
               <NavLink to={"/"}>Home</NavLink>
               <NavLink to={"/corporates/enoc"}>Corporates</NavLink>
+              <NavLink to={"/program"}>Program</NavLink>
+              <NavLink to={"/dashboard"}>HR Dashboard</NavLink>
             </ul>
           </nav>
         </div>

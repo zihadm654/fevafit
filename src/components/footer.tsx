@@ -3,11 +3,24 @@ import { BsInstagram, BsTelephone } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Link } from "react-router-dom";
+import { Button } from "./ui/button";
+import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Footer = () => {
   return (
     <>
-      <footer className="container grid grid-cols-2 max-md:grid-cols-1 gap-3 p-12 max-md:p-6 bg-gray-300 rounded-md">
+      <footer className="container grid grid-cols-2 max-md:grid-cols-1 gap-3 p-12 max-md:p-6 bg-[#F1F1F1] rounded-md">
+        <div className="col-span-2 max-md:col-span-1 py-2">
+          <div className="flex items-center justify-between pb-10">
+            <h2 className=" text-3xl font-bold">
+              Ready to take the next step?{" "}
+            </h2>
+            <Button className="bg-[#6733B5] rounded-xl text-base font-normal">
+              Get in touch <IoIosArrowRoundForward className="size-6" />
+            </Button>
+          </div>
+          <hr className="border-gray-400 py-2" />
+        </div>
         <div className="flex items-center justify-start space-x-4 gap-3">
           <img src="/Logo.svg" alt="logo" loading="lazy" />
           <ul>
@@ -56,7 +69,6 @@ const Footer = () => {
           </ul>
         </div>
         <div className="col-span-2 max-md:col-span-1 py-2">
-          <hr className="border-gray-400 py-2" />
           <p className="text-center ">@ Fevafit 2023 All right reserved</p>
         </div>
       </footer>

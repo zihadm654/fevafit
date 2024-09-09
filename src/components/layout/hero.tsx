@@ -23,15 +23,6 @@ const Hero = () => {
                 <IoIosArrowRoundForward className="size-6" />
               </span>
             </Link>
-            {/* <Button className="bg-[#6733B5] hover:bg-blue-700 text-white p-6 max-md:py-7 py-8 rounded-xl text-lg">
-              <Link
-                className="flex items-center justify-center"
-                to="https://wa.me/+971522103138"
-              >
-                Book a free consultation call
-                <IoIosArrowRoundForward className="size-6" />
-              </Link>
-            </Button> */}
           </div>
         </div>
       </div>

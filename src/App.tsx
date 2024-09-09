@@ -8,7 +8,6 @@ import Sucess from "./components/layout/success";
 import NavMobile from "./components/mobile-nav";
 import Navbar from "./components/navbar";
 import "./App.css";
-import React from "react";
 const App = () => {
   return (
     <div className="flex min-h-screen flex-col">

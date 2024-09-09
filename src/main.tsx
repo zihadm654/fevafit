@@ -6,6 +6,8 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Analytics from "./components/Analytics.js";
 import Enoc from "./pages/enoc.js";
 import Wellx from "./pages/wellx.js";
+import Program from "./pages/program.js";
+import Dashboard from "./pages/dashboard.js";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/corporates/wellx",
     element: <Wellx />,
+  },
+  {
+    path: "/program",
+    element: <Program />,
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
   },
 ]);
 
