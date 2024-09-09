@@ -19,7 +19,7 @@ const Footer = () => {
               Get in touch <IoIosArrowRoundForward className="size-6" />
             </Button>
           </div>
-          <hr className="border-gray-400 py-2" />
+          <hr className="bg-[#CCCCCC]" />
         </div>
         <div className="flex items-center justify-start space-x-4 gap-3">
           <img src="/Logo.svg" alt="logo" loading="lazy" />

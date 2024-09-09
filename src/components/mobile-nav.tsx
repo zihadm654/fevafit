@@ -38,6 +38,16 @@ const NavMobile = () => {
               Corporates
             </NavLink>
           </li>
+          <li className="py-3">
+            <NavLink onClick={(prev) => setOpen(!prev)} to={"/program"}>
+              Program
+            </NavLink>
+          </li>
+          <li className="py-3">
+            <NavLink onClick={(prev) => setOpen(!prev)} to={"/dashboard"}>
+              HR Dashboard
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </div>
