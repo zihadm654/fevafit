@@ -97,8 +97,8 @@ const Program = () => {
                           <iframe
                             width="100%"
                             height="100%"
-                            src="https://www.youtube.com/embed/k4C5tLYtfJk"
-                            title="Sophia from the Wellx team shares her thoughts on our bootcamps 💪 #corporateevents #wellness"
+                            src="https://www.youtube.com/embed/3ChKfZ6ruts"
+                            title="HR Testimonial- Qassim Al Awadhi"
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerPolicy="strict-origin-when-cross-origin"
@@ -106,16 +106,6 @@ const Program = () => {
                           ></iframe>
                         </div>
                       </CarouselItem>
-                      <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/3ChKfZ6ruts"
-                        title="HR Testimonial- Qassim Al Awadhi"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                      ></iframe>
                     </div>
                   </CarouselItem>
                 </CarouselContent>
