@@ -12,7 +12,7 @@ const Footer = () => {
       <footer className="container grid grid-cols-2 max-md:grid-cols-1 gap-3 p-12 max-md:p-6 bg-[#F1F1F1] rounded-md">
         <div className="col-span-2 max-md:col-span-1 py-2">
           <div className="flex items-center justify-between pb-10">
-            <h2 className=" text-3xl font-bold">
+            <h2 className=" text-3xl font-bold max-md:text-2xl">
               Ready to take the next step?{" "}
             </h2>
             <Button className="bg-[#6733B5] rounded-xl text-base font-normal">

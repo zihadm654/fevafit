@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Card, CardContent, CardDescription, CardTitle } from "../ui/card";
 
 const BoostHealth = () => {
@@ -89,18 +90,20 @@ const BoostHealth = () => {
               </CardDescription>
             </Card>
             <Card className="p-6 rounded-2xl">
-              <img
-                src="/mockuuups-clean-desk-with-dell-display-mockup 1.jpg"
-                alt="45"
-                loading="lazy"
-                className="h-60 max-md:h-52  object-cover aspect-video object-left-top w-full rounded-2xl"
-              />
-              <CardTitle className="text-2xl font-medium py-3">
-                HR Dashboard
-              </CardTitle>
-              <CardDescription className=" text-lg text-[#6B6B6B]">
-                Track your team's engagement, feedback and progress
-              </CardDescription>
+              <Link to="/dashboard">
+                <img
+                  src="/mockuuups-clean-desk-with-dell-display-mockup 1.jpg"
+                  alt="45"
+                  loading="lazy"
+                  className="h-60 max-md:h-52  object-cover aspect-video object-left-top w-full rounded-2xl"
+                />
+                <CardTitle className="text-2xl font-medium py-3">
+                  HR Dashboard
+                </CardTitle>
+                <CardDescription className=" text-lg text-[#6B6B6B]">
+                  Track your team's engagement, feedback and progress
+                </CardDescription>
+              </Link>
             </Card>
           </div>
         </div>

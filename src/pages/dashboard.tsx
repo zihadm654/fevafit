@@ -17,19 +17,19 @@ const Dashboard = () => {
               <img
                 src="\Home page- Wireframe.png"
                 alt="home"
-                className="absolute top-1/2 max-md:top-[70%] left-0 z-50"
+                className="absolute top-1/2 max-md:top-[70%] left-0 z-20"
                 loading="lazy"
               />
               <img
                 src="\Frame 8.png"
                 alt="home"
-                className="absolute top-[100%] max-md:top-[90%] left-0 z-50 max-md:w-1/2"
+                className="absolute top-[100%] max-md:top-[95%] left-0 z-20 max-md:w-1/2"
                 loading="lazy"
               />
               <img
                 src="\Frame 2517.png"
                 alt="home"
-                className="absolute top-[112%] max-md:top-[100%] right-0 z-50 max-md:w-1/2"
+                className="absolute top-[112%] max-md:top-[100%] right-0 z-20 max-md:w-1/2"
                 loading="lazy"
               />
               <h1 className="text-7xl max-md:text-4xl font-bold px-4 max-md:px-0">

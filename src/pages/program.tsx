@@ -109,8 +109,8 @@ const Program = () => {
                     </div>
                   </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
+                <CarouselPrevious className="-left-6" />
+                <CarouselNext className="-right-6" />
               </Carousel>
             </div>
           </section>
