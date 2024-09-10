@@ -16,7 +16,13 @@ const Footer = () => {
               Ready to take the next step?{" "}
             </h2>
             <Button className="bg-[#6733B5] rounded-xl text-base font-normal">
-              Get in touch <IoIosArrowRoundForward className="size-6" />
+              <Link
+                target="blank"
+                to="https://ajx6hfj6f3e.typeform.com/to/RbwCkYlw"
+                className="flex justify-center items-center"
+              >
+                Get in touch <IoIosArrowRoundForward className="size-6" />
+              </Link>
             </Button>
           </div>
           <hr className="bg-[#CCCCCC]" />

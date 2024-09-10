@@ -52,7 +52,7 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="min-h-[100svh] container p-12">
-            <h3 className="pt-96 mt-10 text-center font-bold text-6xl">
+            <h3 className="pt-96  max-md:pt-24 mt-10 text-center font-bold text-6xl max-md:text-4xl">
               Key Benefits of Our Corporate <br></br>
               Wellness Program
             </h3>
