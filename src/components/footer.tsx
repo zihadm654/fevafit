@@ -18,7 +18,7 @@ const Footer = () => {
             <Button className="bg-[#6733B5] rounded-xl text-base font-normal">
               <Link
                 target="blank"
-                to="https://ajx6hfj6f3e.typeform.com/to/RbwCkYlw"
+                to="https://0y3vr1x2egc.typeform.com/to/UV79YRnq"
                 className="flex justify-center items-center"
               >
                 Get in touch <IoIosArrowRoundForward className="size-6" />
@@ -43,7 +43,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="flex justify-start space-x-3 gap-3 flex-col max-md:items-start">
-          <ul className="flex items-center justify-end space-x-4 gap-3 font-semibold">
+          {/* <ul className="flex items-center justify-end space-x-4 gap-3 font-semibold">
             <li>
               <Link to="#">Home</Link>
             </li>
@@ -53,7 +53,7 @@ const Footer = () => {
             <li>
               <Link to="#">Contact</Link>
             </li>
-          </ul>
+          </ul> */}
           <ul className="flex items-center justify-end space-x-3 gap-2">
             <h3>Follow Us</h3>
             <li>

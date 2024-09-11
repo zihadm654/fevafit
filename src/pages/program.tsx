@@ -60,24 +60,10 @@ const Program = () => {
               laoreet. Nisl risus sit sed magna tincidunt a.
             </p>
             <div>
-              <Carousel className="py-6 px-3">
+              <Carousel className="py-10 max-md:px-3 px-16">
                 <CarouselContent>
-                  <CarouselItem>
-                    <div className="aspect-square rounded-2xl overflow-hidden">
-                      <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/R6vmPZqA6WM"
-                        title="This is how our fitness bootcamps look like #corporatewellness #sports #corporatewellnesscoach"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerPolicy="strict-origin-when-cross-origin"
-                        allowFullScreen
-                      ></iframe>
-                    </div>
-                  </CarouselItem>
-                  <CarouselItem>
-                    <div className=" aspect-square rounded-2xl overflow-hidden">
+                  <CarouselItem className="h-screen">
+                    <div className="h-full rounded-2xl overflow-hidden">
                       <iframe
                         width="100%"
                         height="100%"
@@ -90,27 +76,37 @@ const Program = () => {
                       ></iframe>
                     </div>
                   </CarouselItem>
-                  <CarouselItem>
-                    <div className=" aspect-square rounded-2xl overflow-hidden">
-                      <CarouselItem>
-                        <div className=" aspect-square rounded-2xl overflow-hidden">
-                          <iframe
-                            width="100%"
-                            height="100%"
-                            src="https://www.youtube.com/embed/3ChKfZ6ruts"
-                            title="HR Testimonial- Qassim Al Awadhi"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                          ></iframe>
-                        </div>
-                      </CarouselItem>
+                  <CarouselItem className="h-screen">
+                    <div className="h-full rounded-2xl overflow-hidden">
+                      <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/R6vmPZqA6WM"
+                        title="This is how our fitness bootcamps look like #corporatewellness #sports #corporatewellnesscoach"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      ></iframe>
+                    </div>
+                  </CarouselItem>
+                  <CarouselItem className="h-screen">
+                    <div className="h-full rounded-2xl overflow-hidden">
+                      <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/3ChKfZ6ruts"
+                        title="HR Testimonial- Qassim Al Awadhi"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerPolicy="strict-origin-when-cross-origin"
+                        allowFullScreen
+                      ></iframe>
                     </div>
                   </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className="-left-6" />
-                <CarouselNext className="-right-6" />
+                <CarouselPrevious className="-left-3  size-9" />
+                <CarouselNext className="-right-3 size-9" />
               </Carousel>
             </div>
           </section>

@@ -24,7 +24,7 @@ const Navbar = ({ scroll = false }) => {
         </Link>
         <div className="max-md:hidden flex justify-between space-x-1 items-center">
           <nav className="hidden gap-6 md:flex pl-4">
-            <ul className="flex space-x-4 items-center justify-between">
+            <ul className="flex space-x-6 items-center justify-between">
               <NavLink to={"/"}>Home</NavLink>
               <NavLink to={"/corporates/enoc"}>Corporates</NavLink>
               <NavLink to={"/program"}>Program</NavLink>

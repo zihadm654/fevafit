@@ -3,14 +3,14 @@ import { Card, CardContent, CardDescription, CardTitle } from "../ui/card";
 
 const BoostHealth = () => {
   return (
-    <section className="pt-12 max-md:py-6">
+    <section className="py-12 max-md:py-6">
       <section className="container p-12 max-md:px-6 max-md:py-10">
-        <div className="flex items-center justify-between gap-12 text-lg flex-wrap max-md:flex-col">
-          <div className="flex-1 ">
+        <div className="grid grid-cols-2 gap-12 text-lg max-md:grid-cols-1 items-center pt-4 pb-14">
+          <div className="">
             <h1 className="text-3xl font-bold">
               Boost Employee Health and Engagement
             </h1>
-            <h5 className="font-normal py-6">
+            <h5 className="font-normal py-3">
               Discover the ultimate fitness experience with FevaFit Corporate
               Wellness Bootcamps!{" "}
             </h5>
@@ -35,8 +35,8 @@ const BoostHealth = () => {
               </li>
             </ol>
           </div>
-          <div className="flex-1 max-h-fit w-full">
-            <div className=" aspect-square w-full rounded-2xl overflow-hidden">
+          <div className="relative w-full h-full">
+            <div className="h-full rounded-2xl overflow-hidden  max-md:h-80">
               <iframe
                 width="100%"
                 height="100%"

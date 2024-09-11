@@ -15,7 +15,7 @@ const config = [
   },
   {
     img: "/Image Placeholder2.jpg",
-    name: "Dr. Naser Ali Riyami",
+    name: "Dr. Naser Al Riyami",
     position: "Clinical Psychologist",
   },
   {

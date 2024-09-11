@@ -60,10 +60,10 @@ const Powered = () => {
                   loading="lazy"
                   src="/image 39.png"
                   alt="icons"
-                  className="object-cover aspect-auto max-md:h-13 h-20"
+                  className="object-cover aspect-auto max-md:h-13 h-16"
                 />
               </div>
-              <CardContent className="max-w-xs flex items-center justify-around flex-col gap-3 py-4">
+              <CardContent className="max-w-xs flex items-center justify-around flex-col gap-3 py-7">
                 Motivated and productive workforce via personalized wellness
                 programs.
                 <NavLink
